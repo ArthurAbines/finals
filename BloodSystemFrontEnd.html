@@ -166,6 +166,7 @@
               this.last_name = '';
               this.email_address = '';
               this.blood_type = '-A';
+              this.loadUsers();
             })
             .catch(error => {
               console.error('Error creating user:', error);
